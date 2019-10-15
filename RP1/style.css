@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    line-height: 1.5;
+}
+
+#heading{
+    background: url("https://images-na.ssl-images-amazon.com/images/I/81xJEG6PK4L.jpg");
+    width:100%;
+    background-size:cover;
+    height: 1000px;
+    background-position-y: 1100px;
+}
+
+#about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding:10px;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.5em;
+    text-align: center;
+}
+
+#rp1{
+    background: rgb(230, 193, 230);
+    padding-top:100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    
+}
+
+#img-two{
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+#chapters{
+    background: rgb(104, 100, 89);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background:rgb(28, 124, 212);
+}
+
+a{
+    line-height: 2.5;
+    color:blue;
+    
+}
+
+a:hover{
+    
+    background:#f51283;
+}
+
+
+
+
+
